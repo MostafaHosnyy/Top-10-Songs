@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Top Songs</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;300&family=Merriweather:wght@300&family=Poppins:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="app">
+            <div class="title"> 
+                <h1>
+                    <i class="fa-sharp fa-solid fa-music"></i>
+                       TOP 10 SONGS
+                 </h1>
+                </div>
+                  <div class="appDescription">
+                     <h2> Get discovered by a world of playlist listeners</h2>
+                     <h3>Playlists are where millions of fans make billions of musical discoveries.</h3>
+                 </div>
+                   <button id="showInput">Show Me!</button>
+                   <div class="playSongs" id="songsInput">
+                  <ul>
+                    <li><p>#1</p>Time to Pretend</li>
+                    <li><p>#2</p>O-o-oh Child</li>                   
+                    <li><p>#3</p>Wish You Were Here</li>                    
+                    <li><p>#4</p>Heroes</li>                   
+                    <li><p>#5</p>I Put a Spell on You</li>   
+                    <li><p>#6</p>Jolene</li>
+                    <li><p>#7</p>Paper Planes</li>
+                    <li><p>#8</p>Call Me</li>
+                    <li><p>#9</p>You Don't Own Me</li>
+                    <li><p>#10</p>Fast Car</li>
+                    <li><p>#11</p>Run the World (Girls)</li>
+                    <li><p>#12</p>Superstition</li>  
+                   </ul>              
+            </div>
+        </div>
+    </body>
+    <!-- JavaScript -->
+    <script>
+        let showInput =
+         document.getElementById("showInput");
+        let songsInput =
+         document.getElementById("songsInput");
+         showInput.addEventListener("click", () => {
+         songsInput.style.visibility = "visible";
+         showInput.style.display = "none";
+        });
+      </script>
+</html>
+
+
